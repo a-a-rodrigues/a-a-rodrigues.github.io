@@ -8,10 +8,10 @@
 body {
   font-family: EvaFont;
   src: url("EvaFont/EPKAISHO.TTF") format('truetype');
-  font-weight: normal;
+  font-weight: n;
   font-style: normal;
-  background-color: #f0f2f5;
-  color: #333;
+  background-color: #000307;
+  color: #ffffff;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -23,8 +23,8 @@ body {
   display: flex;
   width: 90%;
   max-width: 1200px;
-  background: #fff;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  background: #797777;
+  box-shadow: 0 0 20px rgba(177, 173, 173, 0.1);
   border-radius: 12px;
   overflow: hidden;
 }
