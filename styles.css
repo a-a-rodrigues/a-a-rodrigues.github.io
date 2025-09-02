@@ -5,9 +5,12 @@
   padding: 0;
 }
 
-body {
+@font-face {
   font-family: EvaFont;
-  src: url("EvaFont/EPKAISHO.TTF") format('truetype');
+  src: url("../a-a-rodrigues.github.io/EvaFont/EPKAISHO.TTF") format('truetype');
+}
+
+body {
   font-weight: n;
   font-style: normal;
   background-color: #000307;
