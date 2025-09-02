@@ -23,7 +23,7 @@ body {
   display: flex;
   width: 90%;
   max-width: 1200px;
-  background: #797777;
+  background: #292727;
   box-shadow: 0 0 20px rgba(177, 173, 173, 0.1);
   border-radius: 12px;
   overflow: hidden;
@@ -82,7 +82,7 @@ body {
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 20px rgba(13, 70, 230, 0.712);
 }
 
 .card h2 {
