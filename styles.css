@@ -6,11 +6,12 @@
 }
 
 @font-face {
-  font-family: EvaFont;
-  src: url("../a-a-rodrigues.github.io/EvaFont/EPKAISHO.TTF") format('truetype');
+  font-family: 'EPSON True Regular Script';
+  src: url("https://a-a-rodrigues.github.io/EvaFont/EPKAISHO.TTF") format('truetype');
 }
 
 body {
+  font-family:'EPSON True Regular Script';
   font-weight: n;
   font-style: normal;
   background-color: #000307;
