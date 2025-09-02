@@ -82,7 +82,7 @@ body {
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(13, 70, 230, 0.712);
+  box-shadow: 0 10px 20px rgba(84, 248, 111, 0.712);
 }
 
 .card h2 {
