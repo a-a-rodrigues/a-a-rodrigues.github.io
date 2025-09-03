@@ -211,7 +211,7 @@ button:hover {
 }
 
 .slider__container .button-holder .slide__button {
-    background-color: white;
+    background-color: gray;
     width: 15px;
     height: 15px;
     border-radius: 50%;
