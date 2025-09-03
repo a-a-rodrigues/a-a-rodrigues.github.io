@@ -68,10 +68,21 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  cursor: pointer; /* shows hand cursor */
+  transition: color 0.3s ease;
+}
+
+.content-section:hover {
+  color: #14b85e; /* green hover color */
 }
 
 .content-section h1 {
   font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.content-section h2 {
+  font-size: 1.5em;
   margin-bottom: 30px;
 }
 
