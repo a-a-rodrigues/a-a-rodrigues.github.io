@@ -12,6 +12,7 @@
     --text-color: black;
     --primary-color: #0eb10e;
     --accent-color: #068d06;
+    --glow-color: #12f395;
 }
 
 .darkmode {
@@ -214,17 +215,18 @@ button:hover {
 
 h3 {
     color: var(--base-variant);
+    font-size:72px;
 }
 
 h4 {
     color: var(--base-color);
-    font-size: smaller;
+    font-size: 24px;
     font-style: italic;
 }
 
 .container:hover .content-section,
 .container:hover .photo-section {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px var();
+    box-shadow: 0 10px 20px var(--glow-color);
     transition: all 0.3s ease; /* smooth animation */
 }

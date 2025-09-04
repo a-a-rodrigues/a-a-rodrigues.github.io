@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+@font-face {
+    font-family: 'EvaSlide';
+    src: url("../fonts/EPKAISHO.TTF");
+}
+
+:root {
+    --base-color: #f7f4ea;
+    --base-variant: white;
+    --text-color: black;
+    --primary-color: #0eb10e;
+    --accent-color: #068d06;
+    --glow-color: #12f395;
+}
+
+.darkmode {
+    --base-color: #1f1e1e;
+    --base-variant: black;
+    --text-color: white;
+    --primary-color: #068d06;
+    --accent-color: #0eb10e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--base-color);
+    min-height: 100vh;
+}
+
+header {
+    position: sticky;
+    top:0;
+    z-index: 999;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 2.5%;
+    background-color: var(--base-variant);
+}
+
+h1 {
+    font-family: 'EvaSlide', sans-serif;
+    padding-right: 5px;
+    font-size:40px;
+    cursor: pointer;
+}
+
+li, a, button {
+    font-family: "TASA Explorer", sans-serif;
+    font-weight: 500;
+    font-size: 24px; 
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logo:hover {
+    box-shadow: var(--accent);
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color:var(--accent-color);
+}
+
+button {
+    color: var(--base-variant);
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: var(--accent-color);
+}
