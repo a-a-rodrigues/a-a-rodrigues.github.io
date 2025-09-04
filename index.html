@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>aarodrigues</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/x-icon" href="/images/fleur_grn.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aarodrigues</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/fleur_grn.ico">
 </head>
-<body>
-  <header>
-        <img class="logo" src="images/name.png" alt="logo">
+<body class="">
+    <!-- Header with site title, logo, navigation, and contact button -->
+    <header>
+        <a href="index.html"><h1>Augie Rodrigues</h1></a>
+        <img class="logo" src="images/big_fleur_grn.png" alt="logo">
         <nav>
             <ul class="nav__links">
                 <li><a href="#">Home</a></li>
@@ -19,6 +21,8 @@
         </nav>
         <a class="cta" href="#"><button>Contact</button></a>
     </header>
+
+    <!-- Image slider with slides and navigation buttons -->
     <div class="slider__container">
         <div class="wrapper">
             <div class="wrapper-holder">
@@ -35,37 +39,34 @@
             <a href="#slider-img-4" class="slide__button"></a>
         </div>
     </div>
-  <div class="container">
-  <div class="photo-section">
-    <img src="images/person.png" alt="Your Photo">
-  </div>
-  <a href="#" class="content-section">
-    <h1>About Me</h1>
-    <h2>See what I'm about.</h2>
-  </a>
-</div>
 
-<div class="container">
-  <div class="photo-section">
-    <img src="images/gear.png" alt="Your Photo">
-  </div>
-  <a href="#" class="content-section">
-    <h1>Portfolio</h1>
-    <h2>See what I've been working on.</h2>
-  </a>
-</div>
-
-<div class="container">
-  <div class="photo-section">
-    <img src="images/gear.png" alt="Your Photo">
-  </div>
-  <a href="#" class="content-section">
-    <h1>Contact</h1>
-    <h2>Get in touch with me.</h2>
-  </a>
-</div>
-
+    <!-- Card container with cards linking to other pages -->
+    <div class="container">
+        <a href="#" class="photo-section">
+            <img src="images/gear.png" alt="Your Photo">
+        </a>
+        <a href="#" class="content-section">
+            <h3>About Me</h3>
+            <h4>(Why you should hire me)</h4>
+        </a>
     </div>
-  </div>
+    <div class="container">
+        <a href="#" class="photo-section">
+            <img src="images/gear.png" alt="Your Photo">
+        </a>
+        <a href="#" class="content-section">
+            <h3>Portfolio</h3>
+            <h4>See how I've been moving</h4>
+        </a>
+    </div>
+    <div class="container">
+        <a href="#" class="photo-section">
+            <img src="images/gear.png" alt="Your Photo">
+        </a>
+        <a href="#" class="content-section">
+            <h3>Contact</h3>
+            <h4>Hit me up</h4>
+        </a>
+    </div>
 </body>
 </html>
