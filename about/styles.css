@@ -32,6 +32,11 @@
 body {
     background-color: var(--base-color);
     min-height: 100vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    line-height: 1.7;
 }
 
 header {
@@ -98,4 +103,81 @@ button {
 
 button:hover {
     background-color: var(--accent-color);
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Photo styles */
+.about-photo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-photo img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%; /* circular image */
+  object-fit: cover;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Text styles */
+.about-text {
+  flex: 2;
+  padding: 20px;
+}
+
+.about-text h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: var(--text-color);
+  font-weight: 600;
+  border-bottom: 3px solid var(--accent-color); /* accent underline */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.about-text h3 {
+  font-size: 1.4rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.about-text p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: var(--text-color);
+}
+
+.about-text strong {
+  color: #222;
+  font-weight: 600;
+}
+
+/* Responsive design for tablets/phones */
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-text p {
+    font-size: 0.95rem;
+  }
 }
