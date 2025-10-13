@@ -2,9 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const toggleBtn = document.getElementById("theme-toggle");
     const savedTheme = localStorage.getItem("theme");
 
-    // Determine initial theme
-    let isDark = savedTheme === "dark" ||
-        (!savedTheme && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    // Determine initial theme (default is light)
+    let isDark = savedTheme === "dark"; // only true if explicitly saved as dark
 
     // Apply theme
     if (isDark) {
