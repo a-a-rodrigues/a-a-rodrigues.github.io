@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aarodrigues</title>
+    <title>Augie Rodrigues</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="/images/fleur_grn.ico">
 </head>
-<body class="">
-    <!-- Header with site title, logo, navigation, and contact button -->
+<body>
     <header>
-        <a href="../"><h1>Augie Rodrigues</h1></a>
-        <img class="logo" src="images/big_fleur_grn.png" alt="logo">
+        <a href="../" class="site-title">Augie Rodrigues</a>
         <nav>
             <ul class="nav__links">
                 <li><a href="../">Home</a></li>
@@ -19,39 +17,48 @@
                 <li><a href="portfolio/">Portfolio</a></li>
             </ul>
         </nav>
-        <!--Mehm-->
-        <a class="cta" href="contact/"><button>Contact</button></a>
-
-        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <a class="cta-btn" href="contact/">Contact</a>
+        <button id="theme-toggle" aria-label="Toggle theme">
             <img src="images/moon.svg" alt="Toggle Dark Mode">
         </button>
     </header>
 
-    <!-- Card container with cards linking to other pages -->
-    <div class="container">
-        <a href="about/" class="photo-section">
-            <img src="images/profile_guy.png" alt="Your Photo">
-        </a>
-        <a href="about/" class="content-section">
-            <h3>About Me</h3>
-        </a>
-    </div>
-    <div class="container">
-        <a href="portfolio/" class="photo-section">
-            <img src="images/folder.png" alt="Your Photo">
-        </a>
-        <a href="portfolio/" class="content-section">
-            <h3>Portfolio</h3>
-        </a>
-    </div>
-    <div class="container">
-        <a href="contact/" class="photo-section">
-            <img src="images/big-phone.png" alt="Your Photo">
-        </a>
-        <a href="contact/" class="content-section">
-            <h3>Contact</h3>
-        </a>
-    </div>
+    <main>
+        <section class="hero">
+            <p class="hero-label">Software Engineer</p>
+            <h1 class="hero-name">Augie Rodrigues</h1>
+            <p class="hero-tagline">Building systems software in C, C#, and beyond.<br>Based in the New York metropolitan area.</p>
+            <div class="hero-actions">
+                <a href="portfolio/" class="btn-primary">View Portfolio</a>
+                <a href="about/" class="btn-secondary">About Me</a>
+            </div>
+        </section>
+
+        <section class="cards">
+            <a href="about/" class="card">
+                <svg class="card-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                </svg>
+                <h3>About</h3>
+                <p>Background &amp; interests</p>
+            </a>
+            <a href="portfolio/" class="card">
+                <svg class="card-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                </svg>
+                <h3>Portfolio</h3>
+                <p>Projects &amp; work samples</p>
+            </a>
+            <a href="contact/" class="card">
+                <svg class="card-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                </svg>
+                <h3>Contact</h3>
+                <p>Get in touch</p>
+            </a>
+        </section>
+    </main>
+
     <script src="theme.js"></script>
 </body>
 </html>
